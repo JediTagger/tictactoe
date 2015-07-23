@@ -1,0 +1,18 @@
+div {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 20px 20px;
+}
+.one {
+	background-color: tomato;
+}
+.two {
+	background-color: lime;
+}
+.three {
+	background-color: aqua;
+}
+.hidden {
+	display: none;
+}
