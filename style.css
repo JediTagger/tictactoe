@@ -1,63 +1,44 @@
-.one, .two, .three {
+/*Added the borders and the border-collapse makes it all together instead of with spaces
+between the td's.  Centered the words in the td's*/
+
+td {
   width: 100px;
   height: 100px;
-  display: inline-block;
-  margin: 20px 20px;
-  background-color: white;
+  text-align: center;
 }
 
-.five, .six {
-  width: 100px;
-  height: 100px;
-  display: inline-block;
-  margin: 20px 20px;
-  background-color: white;
+table {
+	border-collapse: collapse;
 }
 
-.one {
-	background-color: white;
+.red {
+	background-color: red;
 }
+
+.blue {
+	background-color: blue;
+}
+
 .two {
-	background-color: white;
-}
-.four {
-	  width: 100px;
-	  height: 100px;
-	  display: inline-block;
-	  margin: 20px 20px;
-	  background-color: white;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
 }
 
-.seven {
-    width: 100px;
-    height: 100px;
-    display: inline-block;
-    margin: 20px 20px;
-    background-color: white;
+.four {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.six {
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
 }
 
 .eight {
-    width: 100px;
-    height: 100px;
-    display: inline-block;
-    margin: 20px 20px;
-    background-color: white;
+	border-left: 2px solid black;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
 }
-
-.nine {
-    width: 100px;
-    height: 100px;
-    display: inline-block;
-    margin: 20px 20px;
-    background-color: white;
-}
-.hidden {
-	display: none;
-}
- .border {
-  background-color: red;
- }
-
- .blue {
-  background-color: blue;
- }

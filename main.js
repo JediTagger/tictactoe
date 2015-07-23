@@ -1,35 +1,12 @@
-//****************************************
-// Click event for a div
-//****************************************
-// $('td').click(function () {
-//   var $allDivs = $('td');
-//   $allDivs.css('border', 'none');
-//   $allDivs.removeClass('selectedDiv');
-  
-//   var $clickedDiv = $(this);
-//   $clickedDiv.css('border', '1px solid black');
-//   $clickedDiv.addClass('selectedDiv');
-  
-//   $('form').removeClass('hidden');
-// });
-
-//****************************************
-// Click event for the form button
-//****************************************
-// $('button').click(function(event) {
-//   event.preventDefault();
-  
-//   var color = $('input').val();
-  
-//   $('.selectedDiv').css('background', color);
-   
-// });
-
-// $('td').click(function () {
-//   $('this').css("background-color", 'blue');
-
-// }
-
-$( "td" ).onClick(function() {
-  $( this ).toggleClass( "border blue");
+//We had "onClick" and it should be "click".  Why did it work at first?  dunno
+$('td').click(function() {
+  $(this).toggleClass('red');
+});
+//"dblclick" is "double click" and seemed like the easiest way to get to a different color.
+$('td').dblclick(function() {
+  $(this).toggleClass('blue');
+});
+//looked up reload and put this in instead of instructions to reload the page.
+$('button').click(function() {
+  document.location.reload(true);
 });
