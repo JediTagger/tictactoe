@@ -1,17 +1,31 @@
-div {
+.one, .two, .three {
   width: 100px;
   height: 100px;
   display: inline-block;
   margin: 20px 20px;
+  background-color: lime;
 }
+
+.five, .six {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 20px 20px;
+  background-color: lime;
+}
+
 .one {
 	background-color: tomato;
 }
 .two {
 	background-color: lime;
 }
-.three {
-	background-color: aqua;
+.four {
+	  width: 100px;
+	  height: 100px;
+	  display: inline-block;
+	  margin: 20px 20px;
+	  background-color: lime;
 }
 .hidden {
 	display: none;
