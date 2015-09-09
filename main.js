@@ -1,4 +1,4 @@
-//We had "onClick" and it should be "click".  Why did it work at first?  dunno
+//Click once to change color to red.
 $('td').click(function() {
   $(this).toggleClass('red');
 });
